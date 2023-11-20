@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"font_size": 12,
+	"theme": "Adaptive.sublime-theme",
+	"word_wrap": "auto",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}
