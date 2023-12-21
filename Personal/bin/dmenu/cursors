@@ -12,16 +12,16 @@ case "${cursor_choice}" in
 		"Bibata-Original-Amber" "Bibata-Original-Classic" "Bibata-Original-Ice")
 	;;
 "Catppuccin Cursors")
-	themes=("↵ Go Back" "Catppuccin-Frappe-Dark" "Catppuccin-Frappe-Light" "Catppuccin-Latte-Dark"
-		"Catppuccin-Latte-Light" "Catppuccin-Macchiato-Dark" "Catppuccin-Macchiato-Light"
-		"Catppuccin-Mocha-Dark" "Catppuccin-Mocha-Light")
+	themes=("↵ Go Back" "Catppuccin-Frappe-Dark-Cursors" "Catppuccin-Frappe-Light-Cursors" "Catppuccin-Latte-Dark-Cursors"
+		"Catppuccin-Latte-Light-Cursors" "Catppuccin-Macchiato-Dark-Cursors" "Catppuccin-Macchiato-Light-Cursors"
+		"Catppuccin-Mocha-Dark-Cursors" "Catppuccin-Mocha-Light-Cursors")
 	;;
 "Qogir Cursors")
 	themes=("↵ Go Back" "Qogir-Arc-Cursors" "Qogir-Catppuccin-Macchiato-Cursors" "Qogir-Cursors"
 		"Qogir-Dracula-Cyan-Cursors" "Qogir-Dracula-Green-Cursors" "Qogir-Dracula-Orange-Cursors"
 		"Qogir-Dracula-Pink-Cursors" "Qogir-Dracula-Purple-Cursors" "Qogir-Dracula-Red-Cursors"
 		"Qogir-Dracula-Teddy-Cursors" "Qogir-Dracula-Yellow-Cursors" "Qogir-Gruvbox-Black-Cursors"
-		"Qogir-Joris-Cursors" "Qogir-Sweet-Blue-Cursors" "Qogir-Sweet-Cursors" "Qogir-Sweet-Mars-Cursors"
+		"Qogir-Joris-Cursors" "Qogir-Manjaro-Cursors" "Qogir-Manjaro-White-Cursors" "Qogir-Sweet-Blue-Cursors" "Qogir-Sweet-Cursors" "Qogir-Sweet-Mars-Cursors"
 		"Qogir-Ubuntu-Cursors" "Qogir-Ubuntu-White-Cursors" "Qogir-White-Cursors")
 	;;
 "Simp1e Cursors")
