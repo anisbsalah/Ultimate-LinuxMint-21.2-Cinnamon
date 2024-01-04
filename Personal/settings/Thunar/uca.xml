@@ -83,7 +83,7 @@
 	<text-files/>
 </action>
 <action>
-	<icon>edit-copy-path</icon>
+	<icon>draw-path</icon>
 	<name>Copy Path to Clipboard</name>
 	<submenu></submenu>
 	<unique-id>1693674597522528-1</unique-id>
