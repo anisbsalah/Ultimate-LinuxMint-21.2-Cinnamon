@@ -109,5 +109,4 @@ declare -a options=(
 )
 
 CHOICE=$(printf '%s\n' "${options[@]}" | dmenu -i -l 10 -p 'Alacritty Themes:') || exit
-
 cp "${THEMES}/${CHOICE}.yaml" "${COLORSCHEME}"

@@ -34,7 +34,7 @@ case "${cursor_choice}" in
 		"Simp1e-Tokyo-Night-Light" "Simp1e-Tokyo-Night-Storm")
 	;;
 *)
-	printf 'Invalid choice.\n' >&2
+	printf 'Invalid choice.\nProgram terminated.\n' >&2
 	exit 1
 	;;
 esac
@@ -50,6 +50,6 @@ elif [[ -n ${theme_choice} ]]; then
 	sudo find /usr/share/icons/default/ -name "index.theme" -exec sed -i "/Inherits=/s/.*/Inherits=${theme_choice}/" {} \;
 	sudo sed -i "/cursor-theme-name=/s/.*/cursor-theme-name=${theme_choice}/" /etc/lightdm/slick-greeter.conf
 else
-	printf 'Invalid choice.\n' >&2
+	printf 'Invalid choice.\nProgram terminated.\n' >&2
 	exit 1
 fi

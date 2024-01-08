@@ -11,7 +11,7 @@ function set_oh_my_posh() {
 	declare -a options=("↵ Go Back" "Default" "di4am0nd" "illusi0n" "marcduiker" "robbyrussell")
 	THEME_CHOICE=$(printf '%s\n' "${options[@]}" | dmenu -i -l 6 -p 'Oh My Posh Themes:')
 	if [[ -z ${THEME_CHOICE} ]]; then
-		printf 'Invalid choice.\n' >&2
+		printf 'Invalid choice.\Program terminated.\n' >&2
 		exit 1
 	else
 		sed -i 's/^#eval "$(oh-my-posh init bash/eval "$(oh-my-posh init bash/' "${BASHRC}"
@@ -97,7 +97,7 @@ case ${CHOICE} in
 	;;
 *)
 	# Invalid choice
-	printf 'Invalid choice.\n' >&2
+	printf 'Invalid choice.\Program terminated.\n' >&2
 	exit 1
 	;;
 esac

@@ -31,5 +31,4 @@ declare -a options=(
 )
 
 CHOICE=$(printf '%s\n' "${options[@]}" | dmenu -i -l 10 -p 'Folders color for Papirus-Dark:') || exit
-
 papirus-folders -C "${CHOICE}" --theme Papirus-Dark
