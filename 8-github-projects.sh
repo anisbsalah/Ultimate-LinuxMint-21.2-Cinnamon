@@ -46,7 +46,7 @@ sudo apt install -y xclip
 git clone https://github.com/shasherazi/dmenu-emoji.git /tmp/dmenu-emoji
 chmod +x /tmp/dmenu-emoji/dmenu-emoji
 sudo cp -v /tmp/dmenu-emoji/dmenu-emoji /usr/local/bin/
-sudo cp -v "${CURRENT_DIR}/Personal/bin/emoji/"{d,r}emoji /usr/local/bin/
+sudo cp -v "${CURRENT_DIR}/Personal/scripts/emoji/"{d,r}emoji /usr/local/bin/
 
 echo
 tput setaf 13
@@ -104,7 +104,7 @@ sudo cp /usr/bin/batcat /usr/bin/bat
 echo
 git clone https://github.com/neeshy/lfimg.git /tmp/lfimg-neeshy
 sudo cp -v /tmp/lfimg-neeshy/lfimg /usr/local/bin/
-sudo cp -v "${CURRENT_DIR}/Personal/bin/lf-ueberzug/lfimg/open" /usr/local/bin/ # this is not the original file from the repo; I have changed some opener applications
+sudo cp -v "${CURRENT_DIR}/Personal/scripts/lf-ueberzug/lfimg/open" /usr/local/bin/ # this is not the original file from the repo; I have changed some opener applications
 cp -v /tmp/lfimg-neeshy/cls "${HOME}/.config/lf/cleaner"
 cp -v /tmp/lfimg-neeshy/pv "${HOME}/.config/lf/preview"
 cp -v "${CURRENT_DIR}/Personal/settings/lf/lfimg/preview" "${HOME}/.config/lf/preview" # this version of preview uses bat with colors instead of cat

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+scripts_dir="${HOME}/.local/bin"
+
+declare -a options=(
+	"Edit configs"
+	"Themes"
+	"Cursors"
+	"Papirus folders"
+	"Alacritty themes"
+	"Kitty themes"
+	"Shell prompt themes"
+	"Engines search"
+	"Bookmarks"
+)
+
+CHOICE=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 9 -p 'Scripts:') || exit
+
+case ${CHOICE} in
+"Edit configs") "${scripts_dir}"/edit-conf ;;
+"Alacritty themes") "${scripts_dir}"/alacritty-themer ;;
+"Kitty themes") "${scripts_dir}"/kitty-themer ;;
+"Cursors") "${scripts_dir}"/cursors ;;
+"Themes") "${scripts_dir}"/themer ;;
+"Papirus folders") "${scripts_dir}"/papirus-folders ;;
+"Shell prompt themes") "${scripts_dir}"/sh-prmpt-themer ;;
+"Engines search") "${scripts_dir}"/search-engine ;;
+"Bookmarks") "${scripts_dir}"/bookmarks ;;
+*) exit ;;
+esac

@@ -31,7 +31,7 @@ echo " [*] Installing neofetch..."
 tput sgr0
 sudo apt install -y neofetch
 
-TOOLS_DIR="${CURRENT_DIR}/Personal/bin/terminal-fun"
+TOOLS_DIR="${CURRENT_DIR}/Personal/scripts/terminal-fun"
 
 # Check if the directory exists
 if [[ -d ${TOOLS_DIR} ]]; then

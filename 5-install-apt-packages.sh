@@ -358,7 +358,7 @@ echo '========================'
 tput sgr0
 echo
 
-sudo apt install -y curl debhelper git libnotify-bin lolcat make python3-pip rsync shellcheck shfmt wget wmctrl xclip xdotool zenity
+sudo apt install -y curl debhelper git libnotify-bin lolcat make python3-pip rsync shellcheck shfmt wget wmctrl xclip xdotool yad zenity
 
 # lf preview prerequisites
 sudo apt install -y asciidoctor atool catdoc chafa djvulibre-desktop docx2txt epub-utils ffmpeg ffmpegthumbnailer fluidsynth fzf ghostscript gnumeric graphicsmagick imagemagick libmagic-dev lynx mcomix mpv pandoc poppler-utils source-highlight sxiv trash-cli unoconv xdotool wkhtmltopdf

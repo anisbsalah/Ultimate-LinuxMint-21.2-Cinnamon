@@ -72,8 +72,8 @@ cp -rf "${CURRENT_DIR}/Personal/settings/ulauncher/user-themes/"* "${HOME}/.conf
 cp -rf "${CURRENT_DIR}/Personal/settings/VSCodium/User" "${HOME}/.config/VSCodium/"
 cp "${CURRENT_DIR}/Personal/settings/xed/"* "${HOME}/.config/xed/"
 
-cp -v "${CURRENT_DIR}/Personal/bin/git-setup" "${HOME}/.local/bin/"
-cp -v "${CURRENT_DIR}/Personal/bin/zenity_askpass.sh" "${HOME}/.local/bin/"
+cp -v "${CURRENT_DIR}/Personal/scripts/git-setup" "${HOME}/.local/bin/"
+cp -v "${CURRENT_DIR}/Personal/scripts/zenity_askpass.sh" "${HOME}/.local/bin/"
 cp "${CURRENT_DIR}/Personal/settings/gedit/"* "${HOME}/.local/share/gedit/styles/"
 cp -rf "${CURRENT_DIR}/Personal/settings/nemo/actions/"* "${HOME}/.local/share/nemo/actions/"
 cp -rf "${CURRENT_DIR}/Personal/settings/nemo/scripts/"* "${HOME}/.local/share/nemo/scripts/"
