@@ -90,7 +90,8 @@ static
 const
 #endif // XRESOURCES_PATCH
 
-#include "Arc-Dark.h" /* ColorScheme to be used */
+/* ColorScheme to be used */
+#include "color_schemes/Arc-Dark.h"
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 7;

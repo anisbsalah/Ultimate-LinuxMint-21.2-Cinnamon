@@ -30,7 +30,7 @@ tput sgr0
 echo
 
 git clone https://github.com/bakkeby/dmenu-flexipatch.git "${HOME}/.config/dmenu-flexipatch"
-cp -fv "${CURRENT_DIR}/Personal/settings/dmenu-flexipatch/"* "${HOME}/.config/dmenu-flexipatch/"
+cp -rfv "${CURRENT_DIR}/Personal/settings/dmenu-flexipatch/"* "${HOME}/.config/dmenu-flexipatch/"
 cd "${HOME}/.config/dmenu-flexipatch" || exit 1
 sudo make install
 
