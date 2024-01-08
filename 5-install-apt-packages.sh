@@ -335,6 +335,26 @@ sudo apt install -y codium
 
 echo
 tput setaf 3
+echo '=========================='
+echo '[*] Installing Wezterm...'
+echo '=========================='
+tput sgr0
+echo
+
+DISTRIB_RELEASE="22.04"
+VER="20230712-072601-f4abf8fd"
+ver=$(curl -s https://api.github.com/repos/wez/wezterm/releases/latest | grep tag_name | cut -d '"' -f 4)
+latest_release=${ver:-${VER}}
+
+wget "https://github.com/wez/wezterm/releases/download/${latest_release}/wezterm-${latest_release}.Ubuntu${DISTRIB_RELEASE}.deb" -O "/tmp/wezterm-${latest_release}.Ubuntu${DISTRIB_RELEASE}.deb"
+
+(
+	cd /tmp || exit 1
+	sudo apt install -y ./"wezterm-${latest_release}.Ubuntu${DISTRIB_RELEASE}.deb"
+)
+
+echo
+tput setaf 3
 echo '========================'
 echo '[*] Installing utils...'
 echo '========================'
